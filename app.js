@@ -9,8 +9,8 @@ app.get('/',(req,res)=>{
     res.send('Hello ? my world');
 });
 const PORT = 8080;
-// const HOST = '0.0.0.0';
-const HOST = 'localhost';
+const HOST = '0.0.0.0';
+//const HOST = 'localhost';
 // const HOST = 'test.com';
 
 // const port=process.env.PORT || 80;
